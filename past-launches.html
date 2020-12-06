@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="On this microsite you can find information about SpaceX past launches, live updated from the SpaceX REST API at Github.">
+    <title>Past launches</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap">
+</head>
+
+<body>
+    <div class="bg-wrapper" id="past-launches">
+        <div class="overlay"></div>
+        <nav>
+            <div class="nav-background"></div>
+            <div class="logo">
+                <a href="index.html"><img src="/images/spacex.png" alt="SpaceX-logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li id="past-launches-active"><a href="past-launches.html">Past launches</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="main-headline">
+                <h1 class="hero-text1">Past launches</h1>
+            </div>
+            <div class="scroll-icon">
+                <svg class="scroll" width="67" height="128" viewBox="0 0 67 128">
+                    <g id="scroll-icon" transform="translate(-927 -889)">
+                        <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(927 889)" fill="none"
+                            stroke="#fff" stroke-width="3">
+                            <rect width="67" height="128" rx="33.5" stroke="none" />
+                            <rect x="1.5" y="1.5" width="64" height="125" rx="32" fill="none" />
+                        </g>
+                        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(936 898)" fill="#fff"
+                            stroke="none">
+                            <circle class="bouncer" cx="25" cy="25" r="25" stroke="none" />
+                            <circle cx="25" cy="25" r="24.5" fill="none" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+    </div>
+    <div class="wrapper">
+        <section class="launches">
+            <input type="hidden" name="paged" value="1">
+            </form>
+            <div class="past-launches">
+                <div class="loader"></div>
+            </div>
+        </section>
+    </div>
+    <?xml version="1.0" encoding="iso-8859-1"?>
+    <!-- Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>  -->
+    <a href="#"><svg class="up-arrow" x="0px" y="0px" viewBox="0 0 240.835 240.835"
+            style="enable-background:new 0 0 240.835 240.835;" xml:space="preserve">
+            <g>
+                <path id="Expand_Less" d="M129.007,57.819c-4.68-4.68-12.499-4.68-17.191,0L3.555,165.803c-4.74,4.74-4.74,12.427,0,17.155
+		c4.74,4.74,12.439,4.74,17.179,0l99.683-99.406l99.671,99.418c4.752,4.74,12.439,4.74,17.191,0c4.74-4.74,4.74-12.427,0-17.155
+		L129.007,57.819z" />
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+        </svg></a>
+    <footer>
+        <img class="footer-logo" src="/images/spacex.png" alt="logo">
+        <div class="footer-inner">
+
+        </div>
+        <p class="copyright">&copy SpaceX 2020</p>
+    </footer>
+    <script src="js/footer.js"></script>
+    <script src="js/past.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/components.js"></script>
+</body>
+
+</html>

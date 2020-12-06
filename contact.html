@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="On this microsite you can find information about SpaceX launches, live updated from the SpaceX REST API at Github.">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap">
+    
+    <title>SpaceX - Contact us</title>
+</head>
+<body>
+    <div class="bg-wrapper"  id="contact-page">
+    <nav>
+        <div class="nav-background"></div>
+        <div class="logo">
+            <a href="index.html"><img src="/images/spacex.png" alt="SpaceX-logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="past-launches.html">Past launches</a></li>
+            <li id="contact-active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav> 
+        <div class="hero" id="form">
+        <div class="form-container">
+            <div class="form-success" id="validateFormSuccess">**Thank you for your message. You'll hear from us within 24
+                hours.**</div>
+            <form id="contactForm">
+                <div>
+                    <label>
+                        <input type="text" id="firstName" placeholder="First name (required)" />
+                    </label>
+                    <div id="firstNameError" class="form-error">
+                        Pleace let us know your first name.
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        <input type="text" id="lastName" placeholder="Last name (required)" />
+                    </label>
+                    <div id="lastNameError" class="form-error">
+                        Pleace let us know your first name.
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        <input type="text" id="email" placeholder="e-mail address" />
+                    </label>
+                    <div id="emailError" class="form-error">Wrong e-mail format</div>
+                </div>
+                <div></div>
+                    <div>
+                        <label>
+                            <input type="text" id="subject" placeholder="Write your message here" />
+                        </label>
+                        <div id="subjectError" class="form-error">
+                            Subject must be at least 10 characters
+                        </div>
+                    </div>
+                    <div>
+                        <button class="cta" type="submit" id="formSubmit">Submit</button>
+                    </div>
+                </div>
+              
+            </form>
+        </div>
+    </div>
+
+        <footer>
+            <img class="footer-logo" src="/images/spacex.png" alt="logo">
+            <div class="footer-inner">
+                
+            </div>
+            <p class="copyright">&copy SpaceX 2020</p>
+        </footer>
+        <script src="js/footer.js"></script>
+        <script src="/js/main.js"></script>
+<script src="js/contact.js"></script>
+   <script src="js/nav.js"></script>
+</body>
+</html>

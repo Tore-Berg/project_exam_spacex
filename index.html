@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="On this microsite you can find information about SpaceX launches, live updated from the SpaceX REST API at Github.">
+    <title>SpaceX home page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="bg-wrapper" id="index">
+        <div class="overlay"></div>
+        <nav>
+            <div class="nav-background"></div>
+            <div class="logo">
+                <a href="index.html"><img src="/images/spacex.png" alt="SpaceX-logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li id="index-active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="past-launches.html">Past launches</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="main-headline">
+                <h1 class="hero-text1">Space</h1>
+                <h1 class="hero-text2">Exploration</h1>
+                <h1 class="hero-text3">Technologies</h1>
+            </div>
+                <div class="featured-content">
+                    <div class="next-launch">
+                        <div class="loader"></div>
+                    </div>
+                    <div class="countdown-timer" id="countdown">
+                        <div class="loader"></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <div class="wrapper">
+        <section class="launches">
+            <h2 class="headline">Recent launch</h2>
+            <div class="recent-launches">
+                <div class="loader"></div>
+            </div>
+            <div class="image-container">
+
+            </div>
+            <h2 class="headline">Upcoming launches</h2>
+            <div class="upcoming-launches">
+                <div class="loader"></div>
+            </div>
+        </section>
+        <section class="featured">
+            <h2 class="headline">Latest Tweet from SpaceX</h2>
+            <div class="tweet-feed">
+                <div class="loader"></div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <img class="footer-logo" src="/images/spacex.png" alt="logo">
+        <div class="footer-inner">
+
+        </div>
+        <p class="copyright">Tweets updated automatically by the Twitter API. &copy Twitter 2020<br>
+            This microsite is designed and developed by Tore Berg &copy 2020</p>
+    </footer>
+    <script src="js/footer.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/components.js"></script>
+</body>
+
+</html>
